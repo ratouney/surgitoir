@@ -8,6 +8,8 @@
 #ifndef ERROR_H_
 	#define ERROR_H_
 
+#include "bool.h"
+
 typedef struct {
     char *token;
     int code;

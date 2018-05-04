@@ -6,6 +6,7 @@
 */
 
 #include <string.h>
+#include <stdio.h>
 #include "surgitoir.h"
 
 bool_t sgt_error_assign(char *token, int code)
@@ -18,4 +19,18 @@ bool_t sgt_error_assign(char *token, int code)
     sgt_err->token = strdup(token);
     sgt_err->code = code;
     return FALSE;
+}
+
+void throw_err(bool_t crash)
+{
+    if (sgt_err == NULL)
+        return;
+    dprintf(2, "[%s] --> %s\n", sgt_err->token, error_messages[sgt_err->code]);
+    if (crash == TRUE)
+        exit(exit_code);
+}
+
+void set_exit_code(int code)
+{
+    exit_code = code;
 }

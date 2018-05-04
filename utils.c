@@ -13,3 +13,14 @@ void initCustomNumber(customNumber_t *st)
     st->range_up = 1.0;
     st->modulo = 1.0;
 }
+
+
+bool_t is_in(char *haystack, char needle)
+{
+    for (int i = 0; haystack[i] ; i++)
+    {
+        if (haystack[i] == needle)
+            return TRUE;
+    }
+    return FALSE;
+}
