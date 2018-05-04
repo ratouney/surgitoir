@@ -8,7 +8,7 @@
 #include <math.h>
 #include "surgitoir.h"
 
-bool_t check_number(char *str, number_opts_t opt, customNumber_t range)
+bool_t check_number(char *str, number_opts_t opt, customNumber_t param)
 {
     double value;
 
@@ -39,12 +39,12 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t range)
         }
     }
     if (opt & SGT_RANGE) {
-        if (range.range_up < range.range_down) {
+        if (param.range_up < param.range_down) {
             return sgt_error_assign(str, INVALID_RANGE);
         }
-        if (value >= range.range_up) {
+        if (value >= param.range_up) {
             if (opt & SGT_RANGE_UP_INCLUDED) {
-                if (value <= range.range_up) {
+                if (value <= param.range_up) {
                     ;
                 } else {
                     return sgt_error_assign(str, UPPER_BOUND_REACHED);
@@ -53,9 +53,9 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t range)
                 return sgt_error_assign(str, UPPER_BOUND_REACHED);
             }
         }
-        if (value <= range.range_down) {
+        if (value <= param.range_down) {
             if (opt & SGT_RANGE_DOWN_INCLUDED) {
-                if (value >= range.range_down) {
+                if (value >= param.range_down) {
                     ;
                 } else {
                     return sgt_error_assign(str, LOWER_BOUND_REACHED);
@@ -66,7 +66,7 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t range)
         }
     }
     if (opt & SGT_MODULO) {
-        if (fmod(value, range.modulo) == 0) {
+        if (fmod(value, param.modulo) == 0) {
             ;
         } else {
             return sgt_error_assign(str, MODULO_MISSMATCH);
