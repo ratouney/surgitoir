@@ -5,22 +5,10 @@
 ** sldkfjs
 */
 
-#include "surgitoir.h"
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
-
-bool_t sgt_error_assign(char *token, int code)
-{
-    if (sgt_err == NULL)
-        if ((sgt_err = malloc(sizeof(error_t))) == NULL)
-            exit(69);
-    if (sgt_err->token != NULL)
-        free(sgt_err->token);
-    sgt_err->token = strdup(token);
-    sgt_err->code = code;
-    return FALSE;
-}
+#include "surgitoir.h"
 
 bool_t is_in(char *haystack, char needle)
 {
@@ -149,6 +137,13 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t range)
             }
         }
     }
+    if (opt & SGT_MODULO) {
+        if (fmod(value, range.modulo) == 0) {
+            ;
+        } else {
+            return sgt_error_assign(str, MODULO_MISSMATCH);
+        }
+    }
 }
 
 void sgt_init(void)
@@ -167,6 +162,7 @@ void sgt_init(void)
     error_messages[INCOMPATIBLE_INSTRUCTION] = "INCOMPATIBLE_INSTRUCTION";
     error_messages[NULL_VALUE] = "NULL_VALUE";
     error_messages[INVALID_RANGE] = "INVALID_RANGE";
+    error_messages[MODULO_MISSMATCH] = "MODULO_MISSMATCH";
 }
 
 int main(int argc, char **argv)
@@ -175,8 +171,9 @@ int main(int argc, char **argv)
     customNumber_t param;
     initCustomNumber(&param);
     param.range_down = 3.0;
+    param.modulo = 4.0;
     param.range_up = 7.0;
-    CHECK_NUM(argv[1], SGT_ALLOW_DECIMAL, param);
+    CHECK_NUM(argv[1], SGT_ALLOW_DECIMAL | SGT_MODULO, param);
     THROW_ERR();
     return 0;   
 }

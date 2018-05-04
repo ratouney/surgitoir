@@ -15,6 +15,11 @@ typedef struct {
     int code;
 } error_t;
 
+extern error_t *sgt_err;
+
+extern int exit_code;
+
+
 typedef enum {
     MULTIPLE_FLOATING_POINTS,
     INVALID_WHITESPACE,
@@ -30,15 +35,12 @@ typedef enum {
     INCOMPATIBLE_INSTRUCTION,
     NULL_VALUE,
     INVALID_RANGE,
+    MODULO_MISSMATCH,
     XXX_ERROR_CODE_COUNT,
 } error_codes_t;
 
 #define ERRORCOUNT XXX_ERROR_CODE_COUNT
-
 static const char *error_messages[ERRORCOUNT];
-
-error_t *sgt_err = NULL;
-int exit_code = 84;
 
 typedef struct {
     double range_down;
@@ -47,18 +49,7 @@ typedef struct {
     double modulo;
 } customNumber_t;
 
-customNumber_t defaultNumber = {
-    0.0,
-    1.0,
-    1.0,
-};
-
-void initCustomNumber(customNumber_t *st)
-{
-    st->range_down = 0.0;
-    st->range_up = 1.0;
-    st->modulo = 1.0;
-}
+extern customNumber_t defaultNumber;
 
 #define THROW_ERR(...) throw_err((TRUE, ##__VA_ARGS__))
 #define CHECK_NUM(a, b, ...) check_number(a, b, (defaultNumber, ##__VA_ARGS__))
