@@ -146,28 +146,8 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t range)
     }
 }
 
-void sgt_init(void)
-{
-    error_messages[MULTIPLE_FLOATING_POINTS] = "MULTIPLE_FLOATING_POINTS";
-    error_messages[INVALID_WHITESPACE] = "INVALID_WHITESPACE";
-    error_messages[MULTIPLE_MINUSES] = "MULTIPLE_MINUSES";
-    error_messages[MULTIPLE_PLUSES] = "MULTIPLE_PLUSES";
-    error_messages[FLYING_MINUS] = "FLYING_MINUS";
-    error_messages[FLYING_PLUS] = "FLYING_PLUS";
-    error_messages[NEGATIVE_NUMBER] = "NEGATIVE_NUMBER";
-    error_messages[DECIMAL_NUMBER] = "DECIMAL_NUMBER";
-    error_messages[UPPER_BOUND_REACHED] = "UPPER_BOUND_REACHED";
-    error_messages[LOWER_BOUND_REACHED] = "LOWER_BOUND_REACHED";
-    error_messages[POSITIVE_NUMBER] = "POSITIVE_NUMBER";
-    error_messages[INCOMPATIBLE_INSTRUCTION] = "INCOMPATIBLE_INSTRUCTION";
-    error_messages[NULL_VALUE] = "NULL_VALUE";
-    error_messages[INVALID_RANGE] = "INVALID_RANGE";
-    error_messages[MODULO_MISSMATCH] = "MODULO_MISSMATCH";
-}
-
 int main(int argc, char **argv)
 {
-    sgt_init();
     customNumber_t param;
     initCustomNumber(&param);
     param.range_down = 3.0;
