@@ -29,6 +29,4 @@ typedef enum {
 
 #define ERRORCOUNT XXX_ERROR_CODE_COUNT
 
-
-
 #endif /* !ENUMS_H_ */
