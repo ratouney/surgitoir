@@ -8,6 +8,7 @@
 #ifndef NUMBER_H_
 	#define NUMBER_H_
 
+#include "surgitoir-bool.h"
 //#define CHECK_NUM(a, b, ...) check_number(a, b, (defaultNumber, ##__VA_ARGS__))
 
 typedef enum {
@@ -32,5 +33,7 @@ typedef struct {
 void customNumber_from(customNumber_t *, double);
 void customNumber_to(customNumber_t *, double);
 void customNumber_from_to(customNumber_t *, double, double);
+
+bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value);
 
 #endif /* !NUMBER_H_ */

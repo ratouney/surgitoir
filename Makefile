@@ -11,6 +11,7 @@ NAME	=		libsurgitoir.so
 
 SRC		=		is_number.c			\
 				check_number.c			\
+				check_number_range.c		\
 				error.c				\
 				utils.c				\
 				globals.c			\

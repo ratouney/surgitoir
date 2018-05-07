@@ -1,0 +1,1848 @@
+In file included from ./include/surgitoir.h:11:0,
+                 from is_number.c:8:
+./include/surgitoir-number.h:36:1: error: unknown type name ‘bool_t’
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+ ^~~~~~
+In file included from ./include/surgitoir.h:11:0,
+                 from is_number.c:8:
+./include/surgitoir-number.h:36:1: error: unknown type name ‘bool_t’
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+ ^~~~~~
+In file included from ./include/surgitoir-error.h:11:0,
+                 from ./include/surgitoir.h:12,
+                 from is_number.c:8:
+./include/surgitoir-bool.h: In function ‘check_range’:
+In file included from ./include/surgitoir-error.h:11:0,
+                 from ./include/surgitoir.h:12,
+                 from is_number.c:8:
+./include/surgitoir-bool.h: In function ‘check_range’:
+./include/surgitoir-bool.h:14:3: error: storage class specified for parameter ‘bool_t’
+ } bool_t;
+   ^~~~~~
+./include/surgitoir-bool.h:14:3: error: storage class specified for parameter ‘bool_t’
+ } bool_t;
+   ^~~~~~
+In file included from ./include/surgitoir.h:12:0,
+                 from is_number.c:8:
+./include/surgitoir-error.h:16:3: error: storage class specified for parameter ‘error_t’
+ } error_t;
+   ^~~~~~~
+In file included from ./include/surgitoir.h:12:0,
+                 from is_number.c:8:
+./include/surgitoir-error.h:16:3: error: storage class specified for parameter ‘error_t’
+ } error_t;
+   ^~~~~~~
+In file included from /usr/include/stdlib.h:32:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h:216:23: error: storage class specified for parameter ‘size_t’
+ typedef __SIZE_TYPE__ size_t;
+                       ^~~~~~
+In file included from /usr/include/stdlib.h:32:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h:216:23: error: storage class specified for parameter ‘size_t’
+ typedef __SIZE_TYPE__ size_t;
+                       ^~~~~~
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h:328:24: error: storage class specified for parameter ‘wchar_t’
+ typedef __WCHAR_TYPE__ wchar_t;
+                        ^~~~~~~
+/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h:328:24: error: storage class specified for parameter ‘wchar_t’
+ typedef __WCHAR_TYPE__ wchar_t;
+                        ^~~~~~~
+In file included from /usr/include/stdlib.h:41:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:55:3: error: storage class specified for parameter ‘idtype_t’
+ } idtype_t;
+   ^~~~~~~~
+In file included from /usr/include/stdlib.h:41:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:55:3: error: storage class specified for parameter ‘idtype_t’
+ } idtype_t;
+   ^~~~~~~~
+In file included from ./include/surgitoir-globals.h:11:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/stdlib.h:62:5: error: storage class specified for parameter ‘div_t’
+   } div_t;
+     ^~~~~
+In file included from ./include/surgitoir-globals.h:11:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/stdlib.h:62:5: error: storage class specified for parameter ‘div_t’
+   } div_t;
+     ^~~~~
+/usr/include/stdlib.h:70:5: error: storage class specified for parameter ‘ldiv_t’
+   } ldiv_t;
+     ^~~~~~
+/usr/include/stdlib.h:70:5: error: storage class specified for parameter ‘ldiv_t’
+   } ldiv_t;
+     ^~~~~~
+/usr/include/stdlib.h:78:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ typedef struct
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:78:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ typedef struct
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:82:5: error: expected declaration specifiers before ‘lldiv_t’
+   } lldiv_t;
+     ^~~~~~~
+/usr/include/stdlib.h:82:5: error: expected declaration specifiers before ‘lldiv_t’
+   } lldiv_t;
+     ^~~~~~~
+/usr/include/stdlib.h:100:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__ctype_get_mb_cur_max’
+ extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+               ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/stdlib.h:100:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__ctype_get_mb_cur_max’
+ extern size_t __ctype_get_mb_cur_max (void) __THROW __wur;
+               ^~~~~~~~~~~~~~~~~~~~~~
+/usr/include/stdlib.h:105:15: error: storage class specified for parameter ‘atof’
+ extern double atof (const char *__nptr)
+               ^~~~
+/usr/include/stdlib.h:105:15: error: storage class specified for parameter ‘atof’
+ extern double atof (const char *__nptr)
+               ^~~~
+/usr/include/stdlib.h:108:12: error: storage class specified for parameter ‘atoi’
+ extern int atoi (const char *__nptr)
+            ^~~~
+/usr/include/stdlib.h:108:12: error: storage class specified for parameter ‘atoi’
+ extern int atoi (const char *__nptr)
+            ^~~~
+/usr/include/stdlib.h:111:17: error: storage class specified for parameter ‘atol’
+ extern long int atol (const char *__nptr)
+                 ^~~~
+/usr/include/stdlib.h:111:17: error: storage class specified for parameter ‘atol’
+ extern long int atol (const char *__nptr)
+                 ^~~~
+/usr/include/stdlib.h:118:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ extern long long int atoll (const char *__nptr)
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:118:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ extern long long int atoll (const char *__nptr)
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:125:15: error: storage class specified for parameter ‘strtod’
+ extern double strtod (const char *__restrict __nptr,
+               ^~~~~~
+/usr/include/stdlib.h:125:15: error: storage class specified for parameter ‘strtod’
+ extern double strtod (const char *__restrict __nptr,
+               ^~~~~~
+/usr/include/stdlib.h:133:14: error: storage class specified for parameter ‘strtof’
+ extern float strtof (const char *__restrict __nptr,
+              ^~~~~~
+/usr/include/stdlib.h:133:14: error: storage class specified for parameter ‘strtof’
+ extern float strtof (const char *__restrict __nptr,
+              ^~~~~~
+/usr/include/stdlib.h:136:20: error: storage class specified for parameter ‘strtold’
+ extern long double strtold (const char *__restrict __nptr,
+                    ^~~~~~~
+/usr/include/stdlib.h:136:20: error: storage class specified for parameter ‘strtold’
+ extern long double strtold (const char *__restrict __nptr,
+                    ^~~~~~~
+/usr/include/stdlib.h:144:17: error: storage class specified for parameter ‘strtol’
+ extern long int strtol (const char *__restrict __nptr,
+                 ^~~~~~
+/usr/include/stdlib.h:144:17: error: storage class specified for parameter ‘strtol’
+ extern long int strtol (const char *__restrict __nptr,
+                 ^~~~~~
+/usr/include/stdlib.h:148:26: error: storage class specified for parameter ‘strtoul’
+ extern unsigned long int strtoul (const char *__restrict __nptr,
+                          ^~~~~~~
+/usr/include/stdlib.h:148:26: error: storage class specified for parameter ‘strtoul’
+ extern unsigned long int strtoul (const char *__restrict __nptr,
+                          ^~~~~~~
+/usr/include/stdlib.h:155:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:155:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:160:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:160:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:169:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:169:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:174:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:174:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:266:14: error: storage class specified for parameter ‘l64a’
+ extern char *l64a (long int __n) __THROW __wur;
+              ^~~~
+/usr/include/stdlib.h:266:14: error: storage class specified for parameter ‘l64a’
+ extern char *l64a (long int __n) __THROW __wur;
+              ^~~~
+/usr/include/stdlib.h:269:17: error: storage class specified for parameter ‘a64l’
+ extern long int a64l (const char *__s)
+                 ^~~~
+/usr/include/stdlib.h:269:17: error: storage class specified for parameter ‘a64l’
+ extern long int a64l (const char *__s)
+                 ^~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:29:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/types.h:30:23: error: storage class specified for parameter ‘__u_char’
+ typedef unsigned char __u_char;
+                       ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:29:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/types.h:30:23: error: storage class specified for parameter ‘__u_char’
+ typedef unsigned char __u_char;
+                       ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:31:28: error: storage class specified for parameter ‘__u_short’
+ typedef unsigned short int __u_short;
+                            ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:31:28: error: storage class specified for parameter ‘__u_short’
+ typedef unsigned short int __u_short;
+                            ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:32:22: error: storage class specified for parameter ‘__u_int’
+ typedef unsigned int __u_int;
+                      ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:32:22: error: storage class specified for parameter ‘__u_int’
+ typedef unsigned int __u_int;
+                      ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:33:27: error: storage class specified for parameter ‘__u_long’
+ typedef unsigned long int __u_long;
+                           ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:33:27: error: storage class specified for parameter ‘__u_long’
+ typedef unsigned long int __u_long;
+                           ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:36:21: error: storage class specified for parameter ‘__int8_t’
+ typedef signed char __int8_t;
+                     ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:36:21: error: storage class specified for parameter ‘__int8_t’
+ typedef signed char __int8_t;
+                     ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:37:23: error: storage class specified for parameter ‘__uint8_t’
+ typedef unsigned char __uint8_t;
+                       ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:37:23: error: storage class specified for parameter ‘__uint8_t’
+ typedef unsigned char __uint8_t;
+                       ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:38:26: error: storage class specified for parameter ‘__int16_t’
+ typedef signed short int __int16_t;
+                          ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:38:26: error: storage class specified for parameter ‘__int16_t’
+ typedef signed short int __int16_t;
+                          ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:39:28: error: storage class specified for parameter ‘__uint16_t’
+ typedef unsigned short int __uint16_t;
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:39:28: error: storage class specified for parameter ‘__uint16_t’
+ typedef unsigned short int __uint16_t;
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:40:20: error: storage class specified for parameter ‘__int32_t’
+ typedef signed int __int32_t;
+                    ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:40:20: error: storage class specified for parameter ‘__int32_t’
+ typedef signed int __int32_t;
+                    ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:41:22: error: storage class specified for parameter ‘__uint32_t’
+ typedef unsigned int __uint32_t;
+                      ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:41:22: error: storage class specified for parameter ‘__uint32_t’
+ typedef unsigned int __uint32_t;
+                      ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:43:25: error: storage class specified for parameter ‘__int64_t’
+ typedef signed long int __int64_t;
+                         ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:43:25: error: storage class specified for parameter ‘__int64_t’
+ typedef signed long int __int64_t;
+                         ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:44:27: error: storage class specified for parameter ‘__uint64_t’
+ typedef unsigned long int __uint64_t;
+                           ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:44:27: error: storage class specified for parameter ‘__uint64_t’
+ typedef unsigned long int __uint64_t;
+                           ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:52:18: error: storage class specified for parameter ‘__quad_t’
+ typedef long int __quad_t;
+                  ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:52:18: error: storage class specified for parameter ‘__quad_t’
+ typedef long int __quad_t;
+                  ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:53:27: error: storage class specified for parameter ‘__u_quad_t’
+ typedef unsigned long int __u_quad_t;
+                           ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:53:27: error: storage class specified for parameter ‘__u_quad_t’
+ typedef unsigned long int __u_quad_t;
+                           ^~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:29:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/types.h:124:25: error: storage class specified for parameter ‘__dev_t’
+ __STD_TYPE __DEV_T_TYPE __dev_t; /* Type of device numbers.  */
+                         ^~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:29:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/types.h:124:25: error: storage class specified for parameter ‘__dev_t’
+ __STD_TYPE __DEV_T_TYPE __dev_t; /* Type of device numbers.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:125:25: error: storage class specified for parameter ‘__uid_t’
+ __STD_TYPE __UID_T_TYPE __uid_t; /* Type of user identifications.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:125:25: error: storage class specified for parameter ‘__uid_t’
+ __STD_TYPE __UID_T_TYPE __uid_t; /* Type of user identifications.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:126:25: error: storage class specified for parameter ‘__gid_t’
+ __STD_TYPE __GID_T_TYPE __gid_t; /* Type of group identifications.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:126:25: error: storage class specified for parameter ‘__gid_t’
+ __STD_TYPE __GID_T_TYPE __gid_t; /* Type of group identifications.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:127:25: error: storage class specified for parameter ‘__ino_t’
+ __STD_TYPE __INO_T_TYPE __ino_t; /* Type of file serial numbers.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:127:25: error: storage class specified for parameter ‘__ino_t’
+ __STD_TYPE __INO_T_TYPE __ino_t; /* Type of file serial numbers.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:128:27: error: storage class specified for parameter ‘__ino64_t’
+ __STD_TYPE __INO64_T_TYPE __ino64_t; /* Type of file serial numbers (LFS).*/
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:128:27: error: storage class specified for parameter ‘__ino64_t’
+ __STD_TYPE __INO64_T_TYPE __ino64_t; /* Type of file serial numbers (LFS).*/
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:129:26: error: storage class specified for parameter ‘__mode_t’
+ __STD_TYPE __MODE_T_TYPE __mode_t; /* Type of file attribute bitmasks.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:129:26: error: storage class specified for parameter ‘__mode_t’
+ __STD_TYPE __MODE_T_TYPE __mode_t; /* Type of file attribute bitmasks.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:130:27: error: storage class specified for parameter ‘__nlink_t’
+ __STD_TYPE __NLINK_T_TYPE __nlink_t; /* Type of file link counts.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:130:27: error: storage class specified for parameter ‘__nlink_t’
+ __STD_TYPE __NLINK_T_TYPE __nlink_t; /* Type of file link counts.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:131:25: error: storage class specified for parameter ‘__off_t’
+ __STD_TYPE __OFF_T_TYPE __off_t; /* Type of file sizes and offsets.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:131:25: error: storage class specified for parameter ‘__off_t’
+ __STD_TYPE __OFF_T_TYPE __off_t; /* Type of file sizes and offsets.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:132:27: error: storage class specified for parameter ‘__off64_t’
+ __STD_TYPE __OFF64_T_TYPE __off64_t; /* Type of file sizes and offsets (LFS).  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:132:27: error: storage class specified for parameter ‘__off64_t’
+ __STD_TYPE __OFF64_T_TYPE __off64_t; /* Type of file sizes and offsets (LFS).  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:133:25: error: storage class specified for parameter ‘__pid_t’
+ __STD_TYPE __PID_T_TYPE __pid_t; /* Type of process identifications.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:133:25: error: storage class specified for parameter ‘__pid_t’
+ __STD_TYPE __PID_T_TYPE __pid_t; /* Type of process identifications.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:134:26: error: storage class specified for parameter ‘__fsid_t’
+ __STD_TYPE __FSID_T_TYPE __fsid_t; /* Type of file system IDs.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:134:26: error: storage class specified for parameter ‘__fsid_t’
+ __STD_TYPE __FSID_T_TYPE __fsid_t; /* Type of file system IDs.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:135:27: error: storage class specified for parameter ‘__clock_t’
+ __STD_TYPE __CLOCK_T_TYPE __clock_t; /* Type of CPU usage counts.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:135:27: error: storage class specified for parameter ‘__clock_t’
+ __STD_TYPE __CLOCK_T_TYPE __clock_t; /* Type of CPU usage counts.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:136:26: error: storage class specified for parameter ‘__rlim_t’
+ __STD_TYPE __RLIM_T_TYPE __rlim_t; /* Type for resource measurement.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:136:26: error: storage class specified for parameter ‘__rlim_t’
+ __STD_TYPE __RLIM_T_TYPE __rlim_t; /* Type for resource measurement.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:137:28: error: storage class specified for parameter ‘__rlim64_t’
+ __STD_TYPE __RLIM64_T_TYPE __rlim64_t; /* Type for resource measurement (LFS).  */
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:137:28: error: storage class specified for parameter ‘__rlim64_t’
+ __STD_TYPE __RLIM64_T_TYPE __rlim64_t; /* Type for resource measurement (LFS).  */
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:138:24: error: storage class specified for parameter ‘__id_t’
+ __STD_TYPE __ID_T_TYPE __id_t;  /* General type for IDs.  */
+                        ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:138:24: error: storage class specified for parameter ‘__id_t’
+ __STD_TYPE __ID_T_TYPE __id_t;  /* General type for IDs.  */
+                        ^~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:139:26: error: storage class specified for parameter ‘__time_t’
+ __STD_TYPE __TIME_T_TYPE __time_t; /* Seconds since the Epoch.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:139:26: error: storage class specified for parameter ‘__time_t’
+ __STD_TYPE __TIME_T_TYPE __time_t; /* Seconds since the Epoch.  */
+                          ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:140:30: error: storage class specified for parameter ‘__useconds_t’
+ __STD_TYPE __USECONDS_T_TYPE __useconds_t; /* Count of microseconds.  */
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:140:30: error: storage class specified for parameter ‘__useconds_t’
+ __STD_TYPE __USECONDS_T_TYPE __useconds_t; /* Count of microseconds.  */
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:141:31: error: storage class specified for parameter ‘__suseconds_t’
+ __STD_TYPE __SUSECONDS_T_TYPE __suseconds_t; /* Signed count of microseconds.  */
+                               ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:141:31: error: storage class specified for parameter ‘__suseconds_t’
+ __STD_TYPE __SUSECONDS_T_TYPE __suseconds_t; /* Signed count of microseconds.  */
+                               ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:143:27: error: storage class specified for parameter ‘__daddr_t’
+ __STD_TYPE __DADDR_T_TYPE __daddr_t; /* The type of a disk address.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:143:27: error: storage class specified for parameter ‘__daddr_t’
+ __STD_TYPE __DADDR_T_TYPE __daddr_t; /* The type of a disk address.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:144:25: error: storage class specified for parameter ‘__key_t’
+ __STD_TYPE __KEY_T_TYPE __key_t; /* Type of an IPC key.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:144:25: error: storage class specified for parameter ‘__key_t’
+ __STD_TYPE __KEY_T_TYPE __key_t; /* Type of an IPC key.  */
+                         ^~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:147:29: error: storage class specified for parameter ‘__clockid_t’
+ __STD_TYPE __CLOCKID_T_TYPE __clockid_t;
+                             ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:147:29: error: storage class specified for parameter ‘__clockid_t’
+ __STD_TYPE __CLOCKID_T_TYPE __clockid_t;
+                             ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:150:27: error: storage class specified for parameter ‘__timer_t’
+ __STD_TYPE __TIMER_T_TYPE __timer_t;
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:150:27: error: storage class specified for parameter ‘__timer_t’
+ __STD_TYPE __TIMER_T_TYPE __timer_t;
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:153:29: error: storage class specified for parameter ‘__blksize_t’
+ __STD_TYPE __BLKSIZE_T_TYPE __blksize_t;
+                             ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:153:29: error: storage class specified for parameter ‘__blksize_t’
+ __STD_TYPE __BLKSIZE_T_TYPE __blksize_t;
+                             ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:158:28: error: storage class specified for parameter ‘__blkcnt_t’
+ __STD_TYPE __BLKCNT_T_TYPE __blkcnt_t;
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:158:28: error: storage class specified for parameter ‘__blkcnt_t’
+ __STD_TYPE __BLKCNT_T_TYPE __blkcnt_t;
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:159:30: error: storage class specified for parameter ‘__blkcnt64_t’
+ __STD_TYPE __BLKCNT64_T_TYPE __blkcnt64_t;
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:159:30: error: storage class specified for parameter ‘__blkcnt64_t’
+ __STD_TYPE __BLKCNT64_T_TYPE __blkcnt64_t;
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:162:30: error: storage class specified for parameter ‘__fsblkcnt_t’
+ __STD_TYPE __FSBLKCNT_T_TYPE __fsblkcnt_t;
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:162:30: error: storage class specified for parameter ‘__fsblkcnt_t’
+ __STD_TYPE __FSBLKCNT_T_TYPE __fsblkcnt_t;
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:163:32: error: storage class specified for parameter ‘__fsblkcnt64_t’
+ __STD_TYPE __FSBLKCNT64_T_TYPE __fsblkcnt64_t;
+                                ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:163:32: error: storage class specified for parameter ‘__fsblkcnt64_t’
+ __STD_TYPE __FSBLKCNT64_T_TYPE __fsblkcnt64_t;
+                                ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:166:30: error: storage class specified for parameter ‘__fsfilcnt_t’
+ __STD_TYPE __FSFILCNT_T_TYPE __fsfilcnt_t;
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:166:30: error: storage class specified for parameter ‘__fsfilcnt_t’
+ __STD_TYPE __FSFILCNT_T_TYPE __fsfilcnt_t;
+                              ^~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:167:32: error: storage class specified for parameter ‘__fsfilcnt64_t’
+ __STD_TYPE __FSFILCNT64_T_TYPE __fsfilcnt64_t;
+                                ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:167:32: error: storage class specified for parameter ‘__fsfilcnt64_t’
+ __STD_TYPE __FSFILCNT64_T_TYPE __fsfilcnt64_t;
+                                ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:170:28: error: storage class specified for parameter ‘__fsword_t’
+ __STD_TYPE __FSWORD_T_TYPE __fsword_t;
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:170:28: error: storage class specified for parameter ‘__fsword_t’
+ __STD_TYPE __FSWORD_T_TYPE __fsword_t;
+                            ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:172:27: error: storage class specified for parameter ‘__ssize_t’
+ __STD_TYPE __SSIZE_T_TYPE __ssize_t; /* Type of a byte count, or error.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:172:27: error: storage class specified for parameter ‘__ssize_t’
+ __STD_TYPE __SSIZE_T_TYPE __ssize_t; /* Type of a byte count, or error.  */
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:175:33: error: storage class specified for parameter ‘__syscall_slong_t’
+ __STD_TYPE __SYSCALL_SLONG_TYPE __syscall_slong_t;
+                                 ^~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:175:33: error: storage class specified for parameter ‘__syscall_slong_t’
+ __STD_TYPE __SYSCALL_SLONG_TYPE __syscall_slong_t;
+                                 ^~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:177:33: error: storage class specified for parameter ‘__syscall_ulong_t’
+ __STD_TYPE __SYSCALL_ULONG_TYPE __syscall_ulong_t;
+                                 ^~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:177:33: error: storage class specified for parameter ‘__syscall_ulong_t’
+ __STD_TYPE __SYSCALL_ULONG_TYPE __syscall_ulong_t;
+                                 ^~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:181:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__loff_t’
+ typedef __off64_t __loff_t; /* Type of file sizes and offsets (LFS).  */
+                   ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:181:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__loff_t’
+ typedef __off64_t __loff_t; /* Type of file sizes and offsets (LFS).  */
+                   ^~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:182:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ typedef __quad_t *__qaddr_t;
+                  ^
+/usr/include/x86_64-linux-gnu/bits/types.h:182:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ typedef __quad_t *__qaddr_t;
+                  ^
+/usr/include/x86_64-linux-gnu/bits/types.h:183:15: error: storage class specified for parameter ‘__caddr_t’
+ typedef char *__caddr_t;
+               ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:183:15: error: storage class specified for parameter ‘__caddr_t’
+ typedef char *__caddr_t;
+               ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:186:25: error: storage class specified for parameter ‘__intptr_t’
+ __STD_TYPE __SWORD_TYPE __intptr_t;
+                         ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:186:25: error: storage class specified for parameter ‘__intptr_t’
+ __STD_TYPE __SWORD_TYPE __intptr_t;
+                         ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:189:23: error: storage class specified for parameter ‘__socklen_t’
+ __STD_TYPE __U32_TYPE __socklen_t;
+                       ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/types.h:189:23: error: storage class specified for parameter ‘__socklen_t’
+ __STD_TYPE __U32_TYPE __socklen_t;
+                       ^~~~~~~~~~~
+In file included from /usr/include/stdlib.h:275:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/types.h:33:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_char’
+ typedef __u_char u_char;
+                  ^~~~~~
+In file included from /usr/include/stdlib.h:275:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/types.h:33:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_char’
+ typedef __u_char u_char;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:34:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_short’
+ typedef __u_short u_short;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:34:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_short’
+ typedef __u_short u_short;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:35:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_int’
+ typedef __u_int u_int;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:35:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_int’
+ typedef __u_int u_int;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:36:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_long’
+ typedef __u_long u_long;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:36:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_long’
+ typedef __u_long u_long;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:37:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘quad_t’
+ typedef __quad_t quad_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:37:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘quad_t’
+ typedef __quad_t quad_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:38:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_quad_t’
+ typedef __u_quad_t u_quad_t;
+                    ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:38:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘u_quad_t’
+ typedef __u_quad_t u_quad_t;
+                    ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:39:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsid_t’
+ typedef __fsid_t fsid_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:39:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsid_t’
+ typedef __fsid_t fsid_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:44:9: error: unknown type name ‘__loff_t’
+ typedef __loff_t loff_t;
+         ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:44:9: error: unknown type name ‘__loff_t’
+ typedef __loff_t loff_t;
+         ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:44:18: error: storage class specified for parameter ‘loff_t’
+ typedef __loff_t loff_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:44:18: error: storage class specified for parameter ‘loff_t’
+ typedef __loff_t loff_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:48:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ino_t’
+ typedef __ino_t ino_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:48:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ino_t’
+ typedef __ino_t ino_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:60:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘dev_t’
+ typedef __dev_t dev_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:65:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘gid_t’
+ typedef __gid_t gid_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:70:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mode_t’
+ typedef __mode_t mode_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:75:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘nlink_t’
+ typedef __nlink_t nlink_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:80:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘uid_t’
+ typedef __uid_t uid_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:86:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘off_t’
+ typedef __off_t off_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:98:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pid_t’
+ typedef __pid_t pid_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:104:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘id_t’
+ typedef __id_t id_t;
+                ^~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:109:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ssize_t’
+ typedef __ssize_t ssize_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:115:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘daddr_t’
+ typedef __daddr_t daddr_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:116:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘caddr_t’
+ typedef __caddr_t caddr_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:122:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘key_t’
+ typedef __key_t key_t;
+                 ^~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:132:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/time.h:59:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘clock_t’
+ typedef __clock_t clock_t;
+                   ^~~~~~~
+/usr/include/time.h:75:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘time_t’
+ typedef __time_t time_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:60:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘dev_t’
+ typedef __dev_t dev_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:65:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘gid_t’
+ typedef __gid_t gid_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:70:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mode_t’
+ typedef __mode_t mode_t;
+                  ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:75:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘nlink_t’
+ typedef __nlink_t nlink_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:80:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘uid_t’
+ typedef __uid_t uid_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:86:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘off_t’
+ typedef __off_t off_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:98:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘pid_t’
+ typedef __pid_t pid_t;
+                 ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:104:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘id_t’
+ typedef __id_t id_t;
+                ^~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:109:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ssize_t’
+ typedef __ssize_t ssize_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:115:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘daddr_t’
+ typedef __daddr_t daddr_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:116:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘caddr_t’
+ typedef __caddr_t caddr_t;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:122:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘key_t’
+ typedef __key_t key_t;
+                 ^~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:132:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/time.h:59:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘clock_t’
+ typedef __clock_t clock_t;
+                   ^~~~~~~
+/usr/include/time.h:75:18: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘time_t’
+ typedef __time_t time_t;
+                  ^~~~~~
+/usr/include/time.h:91:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘clockid_t’
+ typedef __clockid_t clockid_t;
+                     ^~~~~~~~~
+/usr/include/time.h:103:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘timer_t’
+ typedef __timer_t timer_t;
+                   ^~~~~~~
+/usr/include/time.h:91:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘clockid_t’
+ typedef __clockid_t clockid_t;
+                     ^~~~~~~~~
+/usr/include/time.h:103:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘timer_t’
+ typedef __timer_t timer_t;
+                   ^~~~~~~
+In file included from /usr/include/stdlib.h:275:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/types.h:150:27: error: storage class specified for parameter ‘ulong’
+ typedef unsigned long int ulong;
+                           ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:151:28: error: storage class specified for parameter ‘ushort’
+ typedef unsigned short int ushort;
+                            ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:152:22: error: storage class specified for parameter ‘uint’
+ typedef unsigned int uint;
+                      ^~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:194:1: error: storage class specified for parameter ‘int8_t’
+ __intN_t (8, __QI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:195:1: error: storage class specified for parameter ‘int16_t’
+ __intN_t (16, __HI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:196:1: error: storage class specified for parameter ‘int32_t’
+ __intN_t (32, __SI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:197:1: error: storage class specified for parameter ‘int64_t’
+ __intN_t (64, __DI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:200:1: error: storage class specified for parameter ‘u_int8_t’
+ __u_intN_t (8, __QI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:201:1: error: storage class specified for parameter ‘u_int16_t’
+ __u_intN_t (16, __HI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:202:1: error: storage class specified for parameter ‘u_int32_t’
+ __u_intN_t (32, __SI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:203:1: error: storage class specified for parameter ‘u_int64_t’
+ __u_intN_t (64, __DI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:205:13: error: storage class specified for parameter ‘register_t’
+ typedef int register_t __attribute__ ((__mode__ (__word__)));
+             ^~~~~~~~~~
+In file included from /usr/include/endian.h:60:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:216,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:46:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+In file included from /usr/include/stdlib.h:275:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/types.h:150:27: error: storage class specified for parameter ‘ulong’
+ typedef unsigned long int ulong;
+                           ^~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:151:28: error: storage class specified for parameter ‘ushort’
+ typedef unsigned short int ushort;
+                            ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:152:22: error: storage class specified for parameter ‘uint’
+ typedef unsigned int uint;
+                      ^~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:194:1: error: storage class specified for parameter ‘int8_t’
+ __intN_t (8, __QI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:195:1: error: storage class specified for parameter ‘int16_t’
+ __intN_t (16, __HI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:196:1: error: storage class specified for parameter ‘int32_t’
+ __intN_t (32, __SI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:197:1: error: storage class specified for parameter ‘int64_t’
+ __intN_t (64, __DI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:200:1: error: storage class specified for parameter ‘u_int8_t’
+ __u_intN_t (8, __QI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:201:1: error: storage class specified for parameter ‘u_int16_t’
+ __u_intN_t (16, __HI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:202:1: error: storage class specified for parameter ‘u_int32_t’
+ __u_intN_t (32, __SI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:203:1: error: storage class specified for parameter ‘u_int64_t’
+ __u_intN_t (64, __DI__);
+ ^
+/usr/include/x86_64-linux-gnu/sys/types.h:205:13: error: storage class specified for parameter ‘register_t’
+ typedef int register_t __attribute__ ((__mode__ (__word__)));
+             ^~~~~~~~~~
+In file included from /usr/include/endian.h:60:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:216,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:46:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ {
+ ^
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:109:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__bswap_64’
+ __bswap_64 (__uint64_t __bsx)
+ ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:109:1: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘__bswap_64’
+ __bswap_64 (__uint64_t __bsx)
+ ^~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/select.h:33:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:219,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/sigset.h:22:13: error: storage class specified for parameter ‘__sig_atomic_t’
+ typedef int __sig_atomic_t;
+             ^~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/select.h:33:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:219,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/sigset.h:22:13: error: storage class specified for parameter ‘__sig_atomic_t’
+ typedef int __sig_atomic_t;
+             ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/sigset.h:30:5: error: storage class specified for parameter ‘__sigset_t’
+   } __sigset_t;
+     ^~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/select.h:37:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘sigset_t’
+ typedef __sigset_t sigset_t;
+                    ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/select.h:45:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:219,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/time.h:122:5: error: expected specifier-qualifier-list before ‘__time_t’
+     __time_t tv_sec;  /* Seconds.  */
+     ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/select.h:47:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:219,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/time.h:32:5: error: expected specifier-qualifier-list before ‘__time_t’
+     __time_t tv_sec;  /* Seconds.  */
+     ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/select.h:50:23: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘suseconds_t’
+ typedef __suseconds_t suseconds_t;
+                       ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:56:18: error: storage class specified for parameter ‘__fd_mask’
+ typedef long int __fd_mask;
+                  ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:74:5: error: expected specifier-qualifier-list before ‘__fd_mask’
+     __fd_mask __fds_bits[__FD_SETSIZE / __NFDBITS];
+     ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:77:5: error: storage class specified for parameter ‘fd_set’
+   } fd_set;
+     ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:84:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fd_mask’
+ typedef __fd_mask fd_mask;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:108:32: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+ extern int select (int __nfds, fd_set *__restrict __readfds,
+                                ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:109:6: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+      fd_set *__restrict __writefds,
+      ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:110:6: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+      fd_set *__restrict __exceptfds,
+      ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:120:33: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+ extern int pselect (int __nfds, fd_set *__restrict __readfds,
+                                 ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:121:7: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+       fd_set *__restrict __writefds,
+       ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:122:7: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+       fd_set *__restrict __exceptfds,
+       ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:124:24: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+       const __sigset_t *__restrict __sigmask);
+                        ^
+In file incl/usr/include/x86_64-linux-gnu/bits/sigset.h:30:5: error: storage class specified for parameter ‘__sigset_t’
+   } __sigset_t;
+     ^~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/select.h:37:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘sigset_t’
+ typedef __sigset_t sigset_t;
+                    ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/select.h:45:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:219,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/time.h:122:5: error: expected specifier-qualifier-list before ‘__time_t’
+     __time_t tv_sec;  /* Seconds.  */
+     ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/select.h:47:0,
+                 from /usr/include/x86_64-linux-gnu/sys/types.h:219,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/time.h:32:5: error: expected specifier-qualifier-list before ‘__time_t’
+     __time_t tv_sec;  /* Seconds.  */
+     ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:219:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/select.h:50:23: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘suseconds_t’
+ typedef __suseconds_t suseconds_t;
+                       ^~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:56:18: error: storage class specified for parameter ‘__fd_mask’
+ typedef long int __fd_mask;
+                  ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:74:5: error: expected specifier-qualifier-list before ‘__fd_mask’
+     __fd_mask __fds_bits[__FD_SETSIZE / __NFDBITS];
+     ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:77:5: error: storage class specified for parameter ‘fd_set’
+   } fd_set;
+     ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:84:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fd_mask’
+ typedef __fd_mask fd_mask;
+                   ^~~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:108:32: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+ extern int select (int __nfds, fd_set *__restrict __readfds,
+                                ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:109:6: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+      fd_set *__restrict __writefds,
+      ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:110:6: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+      fd_set *__restrict __exceptfds,
+      ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:120:33: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+ extern int pselect (int __nfds, fd_set *__restrict __readfds,
+                                 ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:121:7: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+       fd_set *__restrict __writefds,
+       ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:122:7: error: expected declaration specifiers or ‘...’ before ‘fd_set’
+       fd_set *__restrict __exceptfds,
+       ^~~~~~
+/usr/include/x86_64-linux-gnu/sys/select.h:124:24: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+       const __sigset_t *__restrict __sigmask);
+                        ^
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:222:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:26:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:29:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:32:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+In file included from /usr/include/stdlib.h:275:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/types.h:228:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘blksize_t’
+ typedef __blksize_t blksize_t;
+                     ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:235:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘blkcnt_t’
+ typedef __blkcnt_t blkcnt_t;  /* Type to count number of disk blocks.  */
+                    ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:239:22: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsblkcnt_t’
+ typedef __fsblkcnt_t fsblkcnt_t; /* Type to count file system blocks.  */
+                      ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:243:22: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsfilcnt_t’
+ typedef __fsfilcnt_t fsfilcnt_t; /* Type to count file system inodes.  */
+                      ^~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:270:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:60:27: error: storage class specified for parameter ‘pthread_t’
+ typedef unsigned long int pthread_t;
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:69:30: error: storage class specified for parameter ‘pthread_attr_t’
+ typedef union pthread_attr_t pthread_attr_t;
+                              ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:79:3: error: storage class specified for parameter ‘__pthread_list_t’
+ } __pthread_list_t;
+   ^~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:106:5: error: expected specifier-qualifier-list before ‘__pthread_list_t’
+     __pthread_list_t __list;
+     ^~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:128:3: error: storage class specified for parameter ‘pthread_mutex_t’
+ } pthread_mutex_t;
+   ^~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:134:3: error: storage class specified for parameter ‘pthread_mutexattr_t’
+ } pthread_mutexattr_t;
+   ^~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:154:3: error: storage class specified for parameter ‘pthread_cond_t’
+ } pthread_cond_t;
+   ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:160:3: error: storage class specified for parameter ‘pthread_condattr_t’
+ } pthread_condattr_t;
+   ^~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:164:22: error: storage class specified for parameter ‘pthread_key_t’
+ typedef unsigned int pthread_key_t;
+                      ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:168:13: error: storage class specified for parameter ‘pthread_once_t’
+ typedef int pthread_once_t;
+             ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:222:3: error: storage class specified for parameter ‘pthread_rwlock_t’
+ } pthread_rwlock_t;
+   ^~~~~~~~~~~~~~~~
+uded from /usr/include/x86_64-linux-gnu/sys/types.h:222:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:26:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:29:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:32:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__
+ ^~~~~~~~~~~~~
+In file included from /usr/include/stdlib.h:275:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/sys/types.h:228:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘blksize_t’
+ typedef __blksize_t blksize_t;
+                     ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:235:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘blkcnt_t’
+ typedef __blkcnt_t blkcnt_t;  /* Type to count number of disk blocks.  */
+                    ^~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:239:22: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsblkcnt_t’
+ typedef __fsblkcnt_t fsblkcnt_t; /* Type to count file system blocks.  */
+                      ^~~~~~~~~~
+/usr/include/x86_64-linux-gnu/sys/types.h:243:22: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘fsfilcnt_t’
+ typedef __fsfilcnt_t fsfilcnt_t; /* Type to count file system inodes.  */
+                      ^~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/sys/types.h:270:0,
+                 from /usr/include/stdlib.h:275,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:60:27: error: storage class specified for parameter ‘pthread_t’
+ typedef unsigned long int pthread_t;
+                           ^~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:69:30: error: storage class specified for parameter ‘pthread_attr_t’
+ typedef union pthread_attr_t pthread_attr_t;
+                              ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:79:3: error: storage class specified for parameter ‘__pthread_list_t’
+ } __pthread_list_t;
+   ^~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:106:5: error: expected specifier-qualifier-list before ‘__pthread_list_t’
+     __pthread_list_t __list;
+     ^~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:128:3: error: storage class specified for parameter ‘pthread_mutex_t’
+ } pthread_mutex_t;
+   ^~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:134:3: error: storage class specified for parameter ‘pthread_mutexattr_t’
+ } pthread_mutexattr_t;
+   ^~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:154:3: error: storage class specified for parameter ‘pthread_cond_t’
+ } pthread_cond_t;
+   ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:160:3: error: storage class specified for parameter ‘pthread_condattr_t’
+ } pthread_condattr_t;
+   ^~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:164:22: error: storage class specified for parameter ‘pthread_key_t’
+ typedef unsigned int pthread_key_t;
+                      ^~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:168:13: error: storage class specified for parameter ‘pthread_once_t’
+ typedef int pthread_once_t;
+             ^~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:222:3: error: storage class specified for parameter ‘pthread_rwlock_t’
+ } pthread_rwlock_t;
+   ^~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:228:3: error: storage class specified for parameter ‘pthread_rwlockattr_t’
+ } pthread_rwlockattr_t;
+   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:234:22: error: storage class specified for parameter ‘pthread_spinlock_t’
+ typedef volatile int pthread_spinlock_t;
+                      ^~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:243:3: error: storage class specified for parameter ‘pthread_barrier_t’
+ } pthread_barrier_t;
+   ^~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:249:3: error: storage class specified for parameter ‘pthread_barrierattr_t’
+ } pthread_barrierattr_t;
+   ^~~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:228:3: error: storage class specified for parameter ‘pthread_rwlockattr_t’
+ } pthread_rwlockattr_t;
+   ^~~~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:234:22: error: storage class specified for parameter ‘pthread_spinlock_t’
+ typedef volatile int pthread_spinlock_t;
+                      ^~~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:243:3: error: storage class specified for parameter ‘pthread_barrier_t’
+ } pthread_barrier_t;
+   ^~~~~~~~~~~~~~~~~
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:249:3: error: storage class specified for parameter ‘pthread_barrierattr_t’
+ } pthread_barrierattr_t;
+   ^~~~~~~~~~~~~~~~~~~~~
+In file included from ./include/surgitoir-globals.h:11:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/stdlib.h:282:17: error: storage class specified for parameter ‘random’
+ extern long int random (void) __THROW;
+                 ^~~~~~
+In file included from ./include/surgitoir-globals.h:11:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/stdlib.h:282:17: error: storage class specified for parameter ‘random’
+ extern long int random (void) __THROW;
+                 ^~~~~~
+/usr/include/stdlib.h:285:13: error: storage class specified for parameter ‘srandom’
+ extern void srandom (unsigned int __seed) __THROW;
+             ^~~~~~~
+/usr/include/stdlib.h:292:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __statelen) __THROW __nonnull ((2));
+    ^~~~~~
+/usr/include/stdlib.h:296:14: error: storage class specified for parameter ‘setstate’
+ extern char *setstate (char *__statebuf) __THROW __nonnull ((1));
+              ^~~~~~~~
+/usr/include/stdlib.h:306:5: error: expected specifier-qualifier-list before ‘int32_t’
+     int32_t *fptr;  /* Front pointer.  */
+     ^~~~~~~
+/usr/include/stdlib.h:316:8: error: expected declaration specifiers or ‘...’ before ‘int32_t’
+        int32_t *__restrict __result) __THROW __nonnull ((1, 2));
+        ^~~~~~~
+/usr/include/stdlib.h:318:12: error: storage class specified for parameter ‘srandom_r’
+ extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+            ^~~~~~~~~
+/usr/include/stdlib.h:322:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __statelen,
+    ^~~~~~
+/usr/include/stdlib.h:326:12: error: storage class specified for parameter ‘setstate_r’
+ extern int setstate_r (char *__restrict __statebuf,
+            ^~~~~~~~~~
+/usr/include/stdlib.h:335:12: error: storage class specified for parameter ‘rand’
+ extern int rand (void) __THROW;
+            ^~~~
+/usr/include/stdlib.h:337:13: error: storage class specified for parameter ‘srand’
+ extern void srand (unsigned int __seed) __THROW;
+             ^~~~~
+/usr/include/stdlib.h:342:12: error: storage class specified for parameter ‘rand_r’
+ extern int rand_r (unsigned int *__seed) __THROW;
+            ^~~~~~
+/usr/include/stdlib.h:350:15: error: storage class specified for parameter ‘drand48’
+ extern double drand48 (void) __THROW;
+               ^~~~~~~
+/usr/include/stdlib.h:351:15: error: storage class specified for parameter ‘erand48’
+ extern double erand48 (unsigned short int __xsubi[3]) __THROW __nonnull ((1));
+               ^~~~~~~
+/usr/include/stdlib.h:354:17: error: storage class specified for parameter ‘lrand48’
+ extern long int lrand48 (void) __THROW;
+                 ^~~~~~~
+/usr/include/stdlib.h:355:17: error: storage class specified for parameter ‘nrand48’
+ extern long int nrand48 (unsigned short int __xsubi[3])
+                 ^~~~~~~
+/usr/include/stdlib.h:359:17: error: storage class specified for parameter ‘mrand48’
+ extern long int mrand48 (void) __THROW;
+                 ^~~~~~~
+/usr/include/stdlib.h:360:17: error: storage class specified for parameter ‘jrand48’
+ extern long int jrand48 (unsigned short int __xsubi[3])
+                 ^~~~~~~
+/usr/include/stdlib.h:364:13: error: storage class specified for parameter ‘srand48’
+ extern void srand48 (long int __seedval) __THROW;
+             ^~~~~~~
+/usr/include/stdlib.h:365:28: error: storage class specified for parameter ‘seed48’
+ extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+                            ^~~~~~
+/usr/include/stdlib.h:367:13: error: storage class specified for parameter ‘lcong48’
+ extern void lcong48 (unsigned short int __param[7]) __THROW __nonnull ((1));
+             ^~~~~~~
+/usr/include/stdlib.h:384:12: error: storage class specified for parameter ‘drand48_r’
+ extern int drand48_r (struct drand48_data *__restrict __buffer,
+            ^~~~~~~~~
+/usr/include/stdlib.h:386:12: error: storage class specified for parameter ‘erand48_r’
+ extern int erand48_r (unsigned short int __xsubi[3],
+            ^~~~~~~~~
+/usr/include/stdlib.h:391:12: error: storage class specified for parameter ‘lrand48_r’
+ extern int lrand48_r (struct drand48_data *__restrict __buffer,
+            ^~~~~~~~~
+/usr/include/stdlib.h:394:12: error: storage class specified for parameter ‘nrand48_r’
+ extern int nrand48_r (unsigned short int __xsubi[3],
+            ^~~~~~~~~
+/usr/include/stdlib.h:400:12: error: storage class specified for parameter ‘mrand48_r’
+ exte/usr/include/stdlib.h:285:13: error: storage class specified for parameter ‘srandom’
+ extern void srandom (unsigned int __seed) __THROW;
+             ^~~~~~~
+/usr/include/stdlib.h:292:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __statelen) __THROW __nonnull ((2));
+    ^~~~~~
+/usr/include/stdlib.h:296:14: error: storage class specified for parameter ‘setstate’
+ extern char *setstate (char *__statebuf) __THROW __nonnull ((1));
+              ^~~~~~~~
+/usr/include/stdlib.h:306:5: error: expected specifier-qualifier-list before ‘int32_t’
+     int32_t *fptr;  /* Front pointer.  */
+     ^~~~~~~
+/usr/include/stdlib.h:316:8: error: expected declaration specifiers or ‘...’ before ‘int32_t’
+        int32_t *__restrict __result) __THROW __nonnull ((1, 2));
+        ^~~~~~~
+/usr/include/stdlib.h:318:12: error: storage class specified for parameter ‘srandom_r’
+ extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+            ^~~~~~~~~
+/usr/include/stdlib.h:322:4: error: expected declaration specifiers or ‘...’ before ‘size_t’
+    size_t __statelen,
+    ^~~~~~
+/usr/include/stdlib.h:326:12: error: storage class specified for parameter ‘setstate_r’
+ extern int setstate_r (char *__restrict __statebuf,
+            ^~~~~~~~~~
+/usr/include/stdlib.h:335:12: error: storage class specified for parameter ‘rand’
+ extern int rand (void) __THROW;
+            ^~~~
+/usr/include/stdlib.h:337:13: error: storage class specified for parameter ‘srand’
+ extern void srand (unsigned int __seed) __THROW;
+             ^~~~~
+/usr/include/stdlib.h:342:12: error: storage class specified for parameter ‘rand_r’
+ extern int rand_r (unsigned int *__seed) __THROW;
+            ^~~~~~
+/usr/include/stdlib.h:350:15: error: storage class specified for parameter ‘drand48’
+ extern double drand48 (void) __THROW;
+               ^~~~~~~
+/usr/include/stdlib.h:351:15: error: storage class specified for parameter ‘erand48’
+ extern double erand48 (unsigned short int __xsubi[3]) __THROW __nonnull ((1));
+               ^~~~~~~
+/usr/include/stdlib.h:354:17: error: storage class specified for parameter ‘lrand48’
+ extern long int lrand48 (void) __THROW;
+                 ^~~~~~~
+/usr/include/stdlib.h:355:17: error: storage class specified for parameter ‘nrand48’
+ extern long int nrand48 (unsigned short int __xsubi[3])
+                 ^~~~~~~
+/usr/include/stdlib.h:359:17: error: storage class specified for parameter ‘mrand48’
+ extern long int mrand48 (void) __THROW;
+                 ^~~~~~~
+/usr/include/stdlib.h:360:17: error: storage class specified for parameter ‘jrand48’
+ extern long int jrand48 (unsigned short int __xsubi[3])
+                 ^~~~~~~
+/usr/include/stdlib.h:364:13: error: storage class specified for parameter ‘srand48’
+ extern void srand48 (long int __seedval) __THROW;
+             ^~~~~~~
+/usr/include/stdlib.h:365:28: error: storage class specified for parameter ‘seed48’
+ extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+                            ^~~~~~
+/usr/include/stdlib.h:367:13: error: storage class specified for parameter ‘lcong48’
+ extern void lcong48 (unsigned short int __param[7]) __THROW __nonnull ((1));
+             ^~~~~~~
+/usr/include/stdlib.h:384:12: error: storage class specified for parameter ‘drand48_r’
+ extern int drand48_r (struct drand48_data *__restrict __buffer,
+            ^~~~~~~~~
+/usr/include/stdlib.h:386:12: error: storage class specified for parameter ‘erand48_r’
+ extern int erand48_r (unsigned short int __xsubi[3],
+            ^~~~~~~~~
+/usr/include/stdlib.h:391:12: error: storage class specified for parameter ‘lrand48_r’
+ extern int lrand48_r (struct drand48_data *__restrict __buffer,
+            ^~~~~~~~~
+/usr/include/stdlib.h:394:12: error: storage class specified for parameter ‘nrand48_r’
+ extern int nrand48_r (unsigned short int __xsubi[3],
+            ^~~~~~~~~
+/usr/include/stdlib.h:400:12: error: storage class specified for parameter ‘mrand48_r’
+ extern int mrand48_r (struct drand48_data *__restrict __buffer,
+            ^~~~~~~~~
+/usr/include/stdlib.h:403:12: error: storage class specified for parameter ‘jrand48_r’
+ extern int jrand48_r (unsigned short int __xsubi[3],
+            ^~~~~~~~~
+/usr/include/stdlib.h:409:12: error: storage class specified for parameter ‘srand48_r’
+ extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+            ^~~~~~~~~
+/usr/include/stdlib.h:412:12: error: storage class specified for parameter ‘seed48_r’
+ extern int seed48_r (unsigned short int __seed16v[3],
+            ^~~~~~~~
+/usr/include/stdlib.h:415:12: error: storage class specified for parameter ‘lcong48_r’
+ extern int lcong48_r (unsigned short int __param[7],
+            ^~~~~~~~~
+/usr/include/stdlib.h:427:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^~~~~~
+/usr/include/stdlib.h:429:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                      ^~~~~~
+/usr/include/stdlib.h:429:38: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                                      ^~~~~~
+/usr/include/stdlib.h:441:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *realloc (void *__ptr, size_t __size)
+                                    ^~~~~~
+/usr/include/stdlib.h:444:13: error: storage class specified for parameter ‘free’
+ extern void free (void *__ptr) __THROW;
+             ^~~~
+/usr/include/stdlib.h:449:13: error: storage class specified for parameter ‘cfree’
+ extern void cfree (void *__ptr) __THROW;
+             ^~~~~
+rn int mrand48_r (struct drand48_data *__restrict __buffer,
+            ^~~~~~~~~
+/usr/include/stdlib.h:403:12: error: storage class specified for parameter ‘jrand48_r’
+ extern int jrand48_r (unsigned short int __xsubi[3],
+            ^~~~~~~~~
+/usr/include/stdlib.h:409:12: error: storage class specified for parameter ‘srand48_r’
+ extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+            ^~~~~~~~~
+/usr/include/stdlib.h:412:12: error: storage class specified for parameter ‘seed48_r’
+ extern int seed48_r (unsigned short int __seed16v[3],
+            ^~~~~~~~
+/usr/include/stdlib.h:415:12: error: storage class specified for parameter ‘lcong48_r’
+ extern int lcong48_r (unsigned short int __param[7],
+            ^~~~~~~~~
+/usr/include/stdlib.h:427:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^~~~~~
+/usr/include/stdlib.h:429:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                      ^~~~~~
+/usr/include/stdlib.h:429:38: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *calloc (size_t __nmemb, size_t __size)
+                                      ^~~~~~
+/usr/include/stdlib.h:441:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *realloc (void *__ptr, size_t __size)
+                                    ^~~~~~
+/usr/include/stdlib.h:444:13: error: storage class specified for parameter ‘free’
+ extern void free (void *__ptr) __THROW;
+             ^~~~
+/usr/include/stdlib.h:449:13: error: storage class specified for parameter ‘cfree’
+ extern void cfree (void *__ptr) __THROW;
+             ^~~~~
+In file included from /usr/include/stdlib.h:453:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/alloca.h:32:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *alloca (size_t __size) __THROW;
+                      ^~~~~~
+In file included from ./include/surgitoir-globals.h:11:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/stdlib.h:459:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^~~~~~
+/usr/include/stdlib.h:464:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                             ^~~~~~
+/usr/include/stdlib.h:464:65: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                                                 ^~~~~~
+/usr/include/stdlib.h:470:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                             ^~~~~~
+/usr/include/stdlib.h:470:49: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                                                 ^~~~~~
+/usr/include/stdlib.h:476:13: error: storage class specified for parameter ‘abort’
+ extern void abort (void) __THROW __attribute__ ((__noreturn__));
+             ^~~~~
+In file included from /usr/include/stdlib.h:453:0,
+                 from ./include/surgitoir-globals.h:11,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/alloca.h:32:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *alloca (size_t __size) __THROW;
+                      ^~~~~~
+In file included from ./include/surgitoir-globals.h:11:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+/usr/include/stdlib.h:459:22: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *valloc (size_t __size) __THROW __attribute_malloc__ __wur;
+                      ^~~~~~
+/usr/include/stdlib.h:464:45: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                             ^~~~~~
+/usr/include/stdlib.h:464:65: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+                                                                 ^~~~~~
+/usr/include/stdlib.h:470:29: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                             ^~~~~~
+/usr/include/stdlib.h:470:49: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void *aligned_alloc (size_t __alignment, size_t __size)
+                                                 ^~~~~~
+/usr/include/stdlib.h:476:13: error: storage class specified for parameter ‘abort’
+ extern void abort (void) __THROW __attribute__ ((__noreturn__));
+             ^~~~~
+/usr/include/stdlib.h:480:12: error: storage class specified for parameter ‘atexit’
+ extern int atexit (void (*__func) (void)) __THROW __nonnull ((1));
+            ^~~~~~
+/usr/include/stdlib.h:488:12: error: storage class specified for parameter ‘at_quick_exit’
+ extern int at_quick_exit (void (*__func) (void)) __THROW __nonnull ((1));
+            ^~~~~~~~~~~~~
+/usr/include/stdlib.h:480:12: error: storage class specified for parameter ‘atexit’
+ extern int atexit (void (*__func) (void)) __THROW __nonnull ((1));
+            ^~~~~~
+/usr/include/stdlib.h:488:12: error: storage class specified for parameter ‘at_quick_exit’
+ extern int at_quick_exit (void (*__func) (void)) __THROW __nonnull ((1));
+            ^~~~~~~~~~~~~
+/usr/include/stdlib.h:496:12: error: storage class specified for parameter ‘on_exit’
+ extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+            ^~~~~~~
+/usr/include/stdlib.h:496:12: error: storage class specified for parameter ‘on_exit’
+ extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+            ^~~~~~~
+/usr/include/stdlib.h:504:13: error: storage class specified for parameter ‘exit’
+ extern void exit (int __status) __THROW __attribute__ ((__noreturn__));
+             ^~~~
+/usr/include/stdlib.h:504:13: error: storage class specified for parameter ‘exit’
+ extern void exit (int __status) __THROW __attribute__ ((__noreturn__));
+             ^~~~
+/usr/include/stdlib.h:510:13: error: storage class specified for parameter ‘quick_exit’
+ extern void quick_exit (int __status) __THROW __attribute__ ((__noreturn__));
+             ^~~~~~~~~~
+/usr/include/stdlib.h:510:13: error: storage class specified for parameter ‘quick_exit’
+ extern void quick_exit (int __status) __THROW __attribute__ ((__noreturn__));
+             ^~~~~~~~~~
+/usr/include/stdlib.h:518:13: error: storage class specified for parameter ‘_Exit’
+ extern void _Exit (int __status) __THROW __attribute__ ((__noreturn__));
+             ^~~~~
+/usr/include/stdlib.h:518:13: error: storage class specified for parameter ‘_Exit’
+ extern void _Exit (int __status) __THROW __attribute__ ((__noreturn__));
+             ^~~~~
+/usr/include/stdlib.h:525:14: error: storage class specified for parameter ‘getenv’
+ extern char *getenv (const char *__name) __THROW __nonnull ((1)) __wur;
+              ^~~~~~
+/usr/include/stdlib.h:525:14: error: storage class specified for parameter ‘getenv’
+ extern char *getenv (const char *__name) __THROW __nonnull ((1)) __wur;
+              ^~~~~~
+/usr/include/stdlib.h:539:12: error: storage class specified for parameter ‘putenv’
+ extern int putenv (char *__string) __THROW __nonnull ((1));
+            ^~~~~~
+/usr/include/stdlib.h:539:12: error: storage class specified for parameter ‘putenv’
+ extern int putenv (char *__string) __THROW __nonnull ((1));
+            ^~~~~~
+/usr/include/stdlib.h:545:12: error: storage class specified for parameter ‘setenv’
+ extern int setenv (const char *__name, const char *__value, int __replace)
+            ^~~~~~
+/usr/include/stdlib.h:545:12: error: storage class specified for parameter ‘setenv’
+ extern int setenv (const char *__name, const char *__value, int __replace)
+            ^~~~~~
+/usr/include/stdlib.h:549:12: error: storage class specified for parameter ‘unsetenv’
+ extern int unsetenv (const char *__name) __THROW __nonnull ((1));
+            ^~~~~~~~
+/usr/include/stdlib.h:549:12: error: storage class specified for parameter ‘unsetenv’
+ extern int unsetenv (const char *__name) __THROW __nonnull ((1));
+            ^~~~~~~~
+/usr/include/stdlib.h:556:12: error: storage class specified for parameter ‘clearenv’
+ extern int clearenv (void) __THROW;
+            ^~~~~~~~
+/usr/include/stdlib.h:567:14: error: storage class specified for parameter ‘mktemp’
+ extern char *mktemp (char *__template) __THROW __nonnull ((1));
+              ^~~~~~
+/usr/include/stdlib.h:580:12: error: storage class specified for parameter ‘mkstemp’
+ extern int mkstemp (char *__template) __nonnull ((1)) __wur;
+            ^~~~~~~
+/usr/include/stdlib.h:602:12: error: storage class specified for parameter ‘mkstemps’
+ extern int mkstemps (char *__template, int __suffixlen) __nonnull ((1)) __wur;
+            ^~~~~~~~
+/usr/include/stdlib.h:623:14: error: storage class specified for parameter ‘mkdtemp’
+ extern char *mkdtemp (char *__template) __THROW __nonnull ((1)) __wur;
+              ^~~~~~~
+/usr/include/stdlib.h:677:12: error: storage class specified for parameter ‘system’
+ extern int system (const char *__command) __wur;
+            ^~~~~~
+/usr/include/stdlib.h:694:14: error: storage class specified for parameter ‘realpath’
+ extern char *realpath (const char *__restrict __name,
+              ^~~~~~~~
+/usr/include/stdlib.h:702:15: error: storage class specified for parameter ‘__compar_fn_t’
+ typedef int (*__compar_fn_t) (const void *, const void *);
+               ^~~~~~~~~~~~~
+/usr/include/stdlib.h:716:9: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+         ^~~~~~
+/usr/include/stdlib.h:716:25: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                         ^~~~~~
+/usr/include/stdlib.h:716:40: error: expected declaration specifiers or ‘...’ before ‘__compar_fn_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                                        ^~~~~~~~~~~~~
+/usr/include/stdlib.h:725:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                  ^~~~~~
+/usr/include/stdlib.h:725:50: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                                  ^~~~~~
+/usr/include/stdlib.h:726:6: error: expected declaration specifiers or ‘...’ before ‘__compar_fn_t’
+      __compar_fn_t __compar) __nonnull ((1, 4));
+      ^~~~~~~~~~~~~
+/usr/include/stdlib.h:735:12: error: storage class specified for parameter ‘abs’
+ extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;
+            ^~~
+/usr/include/stdlib.h:736:17: error: storage class specified for parameter ‘labs’
+ extern long int labs (long int __x) __THROW __attribute__ ((__const__)) __wur;
+                 ^~~~
+/usr/include/stdlib.h:740:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ extern long long int llabs (long long int __x)
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:749:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘div’
+ extern div_t div (int __numer, int __denom)
+              ^~~
+/usr/include/stdlib.h:751:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ldiv’
+ extern ldiv_t ldiv (long int __numer, long int __denom)
+               ^~~~
+/usr/include/stdlib.h:757:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ extern lldiv_t lldiv (long long int __numer,
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:772:14: error: storage class specified for parameter ‘ecvt’
+ extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+              ^~~~
+/usr/include/stdlib.h:778:14: error: storage class specified for parameter ‘fcvt’
+ extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+              ^~~~
+/usr/include/stdlib.h:784:14: error: storage class sp/usr/include/stdlib.h:556:12: error: storage class specified for parameter ‘clearenv’
+ extern int clearenv (void) __THROW;
+            ^~~~~~~~
+/usr/include/stdlib.h:567:14: error: storage class specified for parameter ‘mktemp’
+ extern char *mktemp (char *__template) __THROW __nonnull ((1));
+              ^~~~~~
+/usr/include/stdlib.h:580:12: error: storage class specified for parameter ‘mkstemp’
+ extern int mkstemp (char *__template) __nonnull ((1)) __wur;
+            ^~~~~~~
+/usr/include/stdlib.h:602:12: error: storage class specified for parameter ‘mkstemps’
+ extern int mkstemps (char *__template, int __suffixlen) __nonnull ((1)) __wur;
+            ^~~~~~~~
+/usr/include/stdlib.h:623:14: error: storage class specified for parameter ‘mkdtemp’
+ extern char *mkdtemp (char *__template) __THROW __nonnull ((1)) __wur;
+              ^~~~~~~
+/usr/include/stdlib.h:677:12: error: storage class specified for parameter ‘system’
+ extern int system (const char *__command) __wur;
+            ^~~~~~
+/usr/include/stdlib.h:694:14: error: storage class specified for parameter ‘realpath’
+ extern char *realpath (const char *__restrict __name,
+              ^~~~~~~~
+/usr/include/stdlib.h:702:15: error: storage class specified for parameter ‘__compar_fn_t’
+ typedef int (*__compar_fn_t) (const void *, const void *);
+               ^~~~~~~~~~~~~
+/usr/include/stdlib.h:716:9: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+         ^~~~~~
+/usr/include/stdlib.h:716:25: error: expected declaration specifiers or ‘...’ before ‘size_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                         ^~~~~~
+/usr/include/stdlib.h:716:40: error: expected declaration specifiers or ‘...’ before ‘__compar_fn_t’
+         size_t __nmemb, size_t __size, __compar_fn_t __compar)
+                                        ^~~~~~~~~~~~~
+/usr/include/stdlib.h:725:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                  ^~~~~~
+/usr/include/stdlib.h:725:50: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+                                                  ^~~~~~
+/usr/include/stdlib.h:726:6: error: expected declaration specifiers or ‘...’ before ‘__compar_fn_t’
+      __compar_fn_t __compar) __nonnull ((1, 4));
+      ^~~~~~~~~~~~~
+/usr/include/stdlib.h:735:12: error: storage class specified for parameter ‘abs’
+ extern int abs (int __x) __THROW __attribute__ ((__const__)) __wur;
+            ^~~
+/usr/include/stdlib.h:736:17: error: storage class specified for parameter ‘labs’
+ extern long int labs (long int __x) __THROW __attribute__ ((__const__)) __wur;
+                 ^~~~
+/usr/include/stdlib.h:740:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ extern long long int llabs (long long int __x)
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:749:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘div’
+ extern div_t div (int __numer, int __denom)
+              ^~~
+/usr/include/stdlib.h:751:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘ldiv’
+ extern ldiv_t ldiv (long int __numer, long int __denom)
+               ^~~~
+/usr/include/stdlib.h:757:1: error: expected declaration specifiers before ‘__extension__’
+ __extension__ extern lldiv_t lldiv (long long int __numer,
+ ^~~~~~~~~~~~~
+/usr/include/stdlib.h:772:14: error: storage class specified for parameter ‘ecvt’
+ extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+              ^~~~
+/usr/include/stdlib.h:778:14: error: storage class specified for parameter ‘fcvt’
+ extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+              ^~~~
+/usr/include/stdlib.h:784:14: error: storage class specified for parameter ‘gcvt’
+ extern char *gcvt (double __value, int __ndigit, char *__buf)
+              ^~~~
+/usr/include/stdlib.h:790:14: error: storage class specified for parameter ‘qecvt’
+ extern char *qecvt (long double __value, int __ndigit,
+              ^~~~~
+/usr/include/stdlib.h:793:14: error: storage class specified for parameter ‘qfcvt’
+ extern char *qfcvt (long double __value, int __ndigit,
+              ^~~~~
+/usr/include/stdlib.h:796:14: error: storage class specified for parameter ‘qgcvt’
+ extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+              ^~~~~
+/usr/include/stdlib.h:804:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^~~~~~
+/usr/include/stdlib.h:807:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^~~~~~
+/usr/include/stdlib.h:811:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/stdlib.h:815:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/stdlib.h:823:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int mblen (const char *__s, size_t __n) __THROW;
+                                    ^~~~~~
+/usr/include/stdlib.h:826:20: error: expected declaration specifiers or ‘...’ before ‘wchar_t’
+ extern int mbtowc (wchar_t *__restrict __pwc,
+                    ^~~~~~~
+/usr/include/stdlib.h:827:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      const char *__restrict __s, size_t __n) __THROW;
+                                  ^~~~~~
+/usr/include/stdlib.h:830:31: error: expected declaration specifiers or ‘...’ before ‘wchar_t’
+ extern int wctomb (char *__s, wchar_t __wchar) __THROW;
+                               ^~~~~~~
+/usr/include/stdlib.h:834:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mbstowcs’
+ extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+               ^~~~~~~~
+/usr/include/stdlib.h:837:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstombs’
+ extern size_t wcstombs (char *__restrict __s,
+               ^~~~~~~~
+/usr/include/stdlib.h:848:12: error: storage class specified for parameter ‘rpmatch’
+ extern int rpmatch (const char *__response) __THROW __nonnull ((1)) __wur;
+            ^~~~~~~
+ecified for parameter ‘gcvt’
+ extern char *gcvt (double __value, int __ndigit, char *__buf)
+              ^~~~
+/usr/include/stdlib.h:790:14: error: storage class specified for parameter ‘qecvt’
+ extern char *qecvt (long double __value, int __ndigit,
+              ^~~~~
+/usr/include/stdlib.h:793:14: error: storage class specified for parameter ‘qfcvt’
+ extern char *qfcvt (long double __value, int __ndigit,
+              ^~~~~
+/usr/include/stdlib.h:796:14: error: storage class specified for parameter ‘qgcvt’
+ extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+              ^~~~~
+/usr/include/stdlib.h:804:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^~~~~~
+/usr/include/stdlib.h:807:6: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      size_t __len) __THROW __nonnull ((3, 4, 5));
+      ^~~~~~
+/usr/include/stdlib.h:811:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/stdlib.h:815:31: error: expected declaration specifiers or ‘...’ before ‘size_t’
+       char *__restrict __buf, size_t __len)
+                               ^~~~~~
+/usr/include/stdlib.h:823:36: error: expected declaration specifiers or ‘...’ before ‘size_t’
+ extern int mblen (const char *__s, size_t __n) __THROW;
+                                    ^~~~~~
+/usr/include/stdlib.h:826:20: error: expected declaration specifiers or ‘...’ before ‘wchar_t’
+ extern int mbtowc (wchar_t *__restrict __pwc,
+                    ^~~~~~~
+/usr/include/stdlib.h:827:34: error: expected declaration specifiers or ‘...’ before ‘size_t’
+      const char *__restrict __s, size_t __n) __THROW;
+                                  ^~~~~~
+/usr/include/stdlib.h:830:31: error: expected declaration specifiers or ‘...’ before ‘wchar_t’
+ extern int wctomb (char *__s, wchar_t __wchar) __THROW;
+                               ^~~~~~~
+/usr/include/stdlib.h:834:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘mbstowcs’
+ extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+               ^~~~~~~~
+/usr/include/stdlib.h:837:15: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘wcstombs’
+ extern size_t wcstombs (char *__restrict __s,
+               ^~~~~~~~
+/usr/include/stdlib.h:848:12: error: storage class specified for parameter ‘rpmatch’
+ extern int rpmatch (const char *__response) __THROW __nonnull ((1)) __wur;
+            ^~~~~~~
+/usr/include/stdlib.h:859:12: error: storage class specified for parameter ‘getsubopt’
+ extern int getsubopt (char **__restrict __optionp,
+            ^~~~~~~~~
+/usr/include/stdlib.h:859:12: error: storage class specified for parameter ‘getsubopt’
+ extern int getsubopt (char **__restrict __optionp,
+            ^~~~~~~~~
+/usr/include/stdlib.h:911:12: error: storage class specified for parameter ‘getloadavg’
+ extern int getloadavg (double __loadavg[], int __nelem)
+            ^~~~~~~~~~
+/usr/include/stdlib.h:911:12: error: storage class specified for parameter ‘getloadavg’
+ extern int getloadavg (double __loadavg[], int __nelem)
+            ^~~~~~~~~~
+In file included from ./include/surgitoir-globals.h:15:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+./include/surgitoir-enums.h:31:3: error: storage class specified for parameter ‘error_codes_t’
+ } error_codes_t;
+   ^~~~~~~~~~~~~
+In file included from ./include/surgitoir-globals.h:15:0,
+                 from ./include/surgitoir.h:13,
+                 from is_number.c:8:
+./include/surgitoir-enums.h:31:3: error: storage class specified for parameter ‘error_codes_t’
+ } error_codes_t;
+   ^~~~~~~~~~~~~
+In file included from ./include/surgitoir.h:13:0,
+                 from is_number.c:8:
+./include/surgitoir-globals.h:18:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern error_t *sgt_err;
+                ^
+In file included from ./include/surgitoir.h:13:0,
+                 from is_number.c:8:
+./include/surgitoir-globals.h:18:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘*’ token
+ extern error_t *sgt_err;
+                ^
+./include/surgitoir-globals.h:20:12: error: storage class specified for parameter ‘exit_code’
+ extern int exit_code;
+            ^~~~~~~~~
+./include/surgitoir-globals.h:20:12: error: storage class specified for parameter ‘exit_code’
+ extern int exit_code;
+            ^~~~~~~~~
+./include/surgitoir-globals.h:22:14: error: storage class specified for parameter ‘error_messages’
+ extern char *error_messages[ERRORCOUNT];
+              ^~~~~~~~~~~~~~
+./include/surgitoir-globals.h:24:23: error: storage class specified for parameter ‘defaultNumber’
+ extern customNumber_t defaultNumber;
+                       ^~~~~~~~~~~~~
+In file included from is_number.c:8:0:
+./include/surgitoir.h:21:3: error: storage class specified for parameter ‘types_t’
+ } types_t;
+   ^~~~~~~
+./include/surgitoir.h:26:3: error: storage class specified for parameter ‘arg_t’
+ } arg_t;
+   ^~~~~
+./include/surgitoir.h:32:5: error: expected specifier-qualifier-list before ‘bool_t’
+     bool_t longopt;
+     ^~~~~~
+./include/surgitoir.h:35:3: error: storage class specified for parameter ‘param_t’
+ } param_t;
+   ^~~~~~~
+./include/surgitoir.h:37:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t sgt_error_assign(char *, int);
+ ^~~~~~
+./include/surgitoir.h:38:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t is_in(char *haystack, char needle);
+ ^~~~~~
+./include/surgitoir.h:39:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t is_num(char *str);
+ ^~~~~~
+./include/surgitoir.h:41:16: error: expected declaration specifiers or ‘...’ before ‘bool_t’
+ void throw_err(bool_t crash);
+                ^~~~~~
+./include/surgitoir.h:42:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t check_number(char *str, number_opts_t opt, customNumber_t *range);
+ ^~~~~~
+is_number.c:10:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t is_num(char *str)
+ ^~~~~~
+In file included from ./include/surgitoir.h:11:0,
+                 from is_number.c:8:
+./include/surgitoir-number.h:36:8: error: old-style parameter declarations in prototyped function definition
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+        ^~~~~~~~~~~
+is_number.c:57:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ./include/surgitoir.h:11:0,
+                 from is_number.c:8:
+./include/surgitoir-number.h:36:26: warning: unused parameter ‘str’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                          ^~~
+./include/surgitoir-number.h:36:45: warning: unused parameter ‘opt’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                                             ^~~
+./include/surgitoir-number.h:36:66: warning: unused parameter ‘param’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                                                                  ^~~~~
+./include/surgitoir-number.h:36:80: warning: unused parameter ‘value’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                                                                                ^~~~~
+is_number.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+./include/surgitoir-globals.h:22:14: error: storage class specified for parameter ‘error_messages’
+ extern char *error_messages[ERRORCOUNT];
+              ^~~~~~~~~~~~~~
+./include/surgitoir-globals.h:24:23: error: storage class specified for parameter ‘defaultNumber’
+ extern customNumber_t defaultNumber;
+                       ^~~~~~~~~~~~~
+In file included from is_number.c:8:0:
+./include/surgitoir.h:21:3: error: storage class specified for parameter ‘types_t’
+ } types_t;
+   ^~~~~~~
+./include/surgitoir.h:26:3: error: storage class specified for parameter ‘arg_t’
+ } arg_t;
+   ^~~~~
+./include/surgitoir.h:32:5: error: expected specifier-qualifier-list before ‘bool_t’
+     bool_t longopt;
+     ^~~~~~
+./include/surgitoir.h:35:3: error: storage class specified for parameter ‘param_t’
+ } param_t;
+   ^~~~~~~
+./include/surgitoir.h:37:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t sgt_error_assign(char *, int);
+ ^~~~~~
+./include/surgitoir.h:38:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t is_in(char *haystack, char needle);
+ ^~~~~~
+./include/surgitoir.h:39:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t is_num(char *str);
+ ^~~~~~
+./include/surgitoir.h:41:16: error: expected declaration specifiers or ‘...’ before ‘bool_t’
+ void throw_err(bool_t crash);
+                ^~~~~~
+./include/surgitoir.h:42:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t check_number(char *str, number_opts_t opt, customNumber_t *range);
+ ^~~~~~
+is_number.c:10:1: error: expected declaration specifiers before ‘bool_t’
+ bool_t is_num(char *str)
+ ^~~~~~
+In file included from ./include/surgitoir.h:11:0,
+                 from is_number.c:8:
+./include/surgitoir-number.h:36:8: error: old-style parameter declarations in prototyped function definition
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+        ^~~~~~~~~~~
+is_number.c:57:1: error: expected ‘{’ at end of input
+ }
+ ^
+In file included from ./include/surgitoir.h:11:0,
+                 from is_number.c:8:
+./include/surgitoir-number.h:36:26: warning: unused parameter ‘str’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                          ^~~
+./include/surgitoir-number.h:36:45: warning: unused parameter ‘opt’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                                             ^~~
+./include/surgitoir-number.h:36:66: warning: unused parameter ‘param’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                                                                  ^~~~~
+./include/surgitoir-number.h:36:80: warning: unused parameter ‘value’ [-Wunused-parameter]
+ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
+                                                                                ^~~~~
+is_number.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [is_number.o] Error 1
+make: *** [is_number.o] Error 1
