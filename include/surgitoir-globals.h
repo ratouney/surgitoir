@@ -10,9 +10,9 @@
 
 #include <stdlib.h>
 
-#include "error.h"
-#include "number.h"
-#include "enums.h"
+#include "surgitoir-error.h"
+#include "surgitoir-number.h"
+#include "surgitoir-enums.h"
 
 
 extern error_t *sgt_err;

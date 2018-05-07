@@ -26,6 +26,8 @@ all:		$(OBJ)
 
 clean:
 	rm -f $(OBJ)
+	rm -f *~
+	rm -f include/*~
 
 fclean:		clean
 	rm -f $(NAME)
@@ -41,8 +43,10 @@ init:
 
 install: 	all init
 	sudo cp $(NAME) /usr/lib/
+	sudo cp include/* /usr/include/
 
 uninstall:	fclean
-	sudo rm -f /usr/lib/$(NAME)
+	sudo rm -fv /usr/lib/$(NAME)
+	sudo rm -fv /usr/include/surgitoir*
 
 .PHONY:		all clean fclean re test init install uninstall

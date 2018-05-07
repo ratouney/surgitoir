@@ -8,7 +8,7 @@
 #ifndef ERROR_H_
 	#define ERROR_H_
 
-#include "bool.h"
+#include "surgitoir-bool.h"
 
 typedef struct {
     char *token;

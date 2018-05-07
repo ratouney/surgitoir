@@ -8,11 +8,11 @@
 #ifndef SURGITOIR_H_
 	#define SURGITOIR_H_
 
-#include "number.h"
-#include "error.h"
-#include "globals.h"
-#include "enums.h"
-#include "bool.h"
+#include "surgitoir-number.h"
+#include "surgitoir-error.h"
+#include "surgitoir-globals.h"
+#include "surgitoir-enums.h"
+#include "surgitoir-bool.h"
 
 typedef enum {
     SGT_NUMBER,
@@ -31,7 +31,7 @@ typedef struct {
 
     bool_t longopt;
     arg_t * args;
-    
+
 } param_t;
 
 bool_t sgt_error_assign(char *, int);
