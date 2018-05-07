@@ -29,4 +29,8 @@ typedef struct {
     double modulo;
 } customNumber_t;
 
+void customNumber_from(customNumber_t *, double);
+void customNumber_to(customNumber_t *, double);
+void customNumber_from_to(customNumber_t *, double, double);
+
 #endif /* !NUMBER_H_ */

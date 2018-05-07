@@ -10,11 +10,12 @@ CC		=		gcc -g
 NAME	=		libsurgitoir.so
 
 SRC		=		is_number.c			\
-				check_number.c		\
+				check_number.c			\
 				error.c				\
 				utils.c				\
 				globals.c			\
-				init.c
+				init.c				\
+				custom_number.c
 
 OBJ		=		$(SRC:.c=.o)
 
