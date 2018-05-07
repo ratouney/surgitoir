@@ -47,6 +47,10 @@ bool_t is_num(char *str)
                 } else {
                     return sgt_error_assign(init, MULTIPLE_PLUSES);
                 }
+            default:
+                if (is_in("0123456789", str[i]) == FALSE) {
+                    return FALSE;
+                }
         }
     }
     return TRUE;

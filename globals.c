@@ -33,5 +33,7 @@ char *error_messages[ERRORCOUNT] = {
     "NULL_VALUE",
     "INVALID_RANGE",
     "MODULO_MISSMATCH",
+    "NO_PARAMS_PROVIDED",
+    "IS_NAN",
+    "STRTOD_FAILED",
 };
-

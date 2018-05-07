@@ -39,6 +39,6 @@ bool_t is_in(char *haystack, char needle);
 bool_t is_num(char *str);
 void initCustomNumber(customNumber_t *st);
 void throw_err(bool_t crash);
-bool_t check_number(char *str, number_opts_t opt, customNumber_t range);
+bool_t check_number(char *str, number_opts_t opt, customNumber_t *range);
 
 #endif /* !SURGITOIR_H_ */

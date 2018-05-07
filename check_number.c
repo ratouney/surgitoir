@@ -8,13 +8,16 @@
 #include <math.h>
 #include "surgitoir.h"
 
-bool_t check_number(char *str, number_opts_t opt, customNumber_t param)
+bool_t check_number(char *str, number_opts_t opt, customNumber_t *param)
 {
+    char *test;
     double value;
 
     if (is_num(str) == FALSE)
-        return FALSE;
-    value = strtod(str, NULL);
+        return sgt_error_assign(str, IS_NAN);
+    value = strtod(str, &test);
+    if (test == str)
+        return sgt_error_assign(str, STRTOD_FAILED);
     if (opt & SGT_NON_NULL) {
         if (value == 0.0)
             return sgt_error_assign(str, NULL_VALUE);
@@ -39,25 +42,23 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t param)
         }
     }
     if (opt & SGT_RANGE) {
-        if (param.range_up < param.range_down) {
+        if (param == NULL)
+            return sgt_error_assign(str, NO_PARAMS_PROVIDED);
+        if (param->range_up < param->range_down) {
             return sgt_error_assign(str, INVALID_RANGE);
         }
-        if (value >= param.range_up) {
+        if (value >= param->range_up) {
             if (opt & SGT_RANGE_UP_INCLUDED) {
-                if (value <= param.range_up) {
-                    ;
-                } else {
+                if (value > param->range_up) {
                     return sgt_error_assign(str, UPPER_BOUND_REACHED);
                 }
             } else {
                 return sgt_error_assign(str, UPPER_BOUND_REACHED);
             }
         }
-        if (value <= param.range_down) {
+        if (value <= param->range_down) {
             if (opt & SGT_RANGE_DOWN_INCLUDED) {
-                if (value >= param.range_down) {
-                    ;
-                } else {
+                if (value < param->range_down) {
                     return sgt_error_assign(str, LOWER_BOUND_REACHED);
                 }
             } else {
@@ -66,9 +67,9 @@ bool_t check_number(char *str, number_opts_t opt, customNumber_t param)
         }
     }
     if (opt & SGT_MODULO) {
-        if (fmod(value, param.modulo) == 0) {
-            ;
-        } else {
+        if (param == NULL)
+            return sgt_error_assign(str, NO_PARAMS_PROVIDED);
+        if (fmod(value, param->modulo) != 0) {
             return sgt_error_assign(str, MODULO_MISSMATCH);
         }
     }

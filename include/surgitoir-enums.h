@@ -24,6 +24,9 @@ typedef enum {
     NULL_VALUE,
     INVALID_RANGE,
     MODULO_MISSMATCH,
+    NO_PARAMS_PROVIDED,
+    IS_NAN,
+    STRTOD_FAILED,
     XXX_ERROR_CODE_COUNT,
 } error_codes_t;
 

@@ -8,7 +8,7 @@
 #ifndef NUMBER_H_
 	#define NUMBER_H_
 
-#define CHECK_NUM(a, b, ...) check_number(a, b, (defaultNumber, ##__VA_ARGS__))
+//#define CHECK_NUM(a, b, ...) check_number(a, b, (defaultNumber, ##__VA_ARGS__))
 
 typedef enum {
     SGT_NONE = 1,

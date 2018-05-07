@@ -15,6 +15,4 @@ typedef struct {
     int code;
 } error_t;
 
-#define THROW_ERR(...) throw_err((TRUE, ##__VA_ARGS__))
-
 #endif /* !ERROR_H_ */

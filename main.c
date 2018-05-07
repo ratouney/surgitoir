@@ -6,18 +6,35 @@
 */
 
 #include <stdio.h>
-#include <math.h>
-#include <string.h>
 #include "surgitoir.h"
 
-int main(int argc, char **argv)
+int test_total = 0;
+int test_passed = 0;
+
+void test_number(char *msg, bool_t wanted, char *num, number_opts_t opt, customNumber_t *param)
 {
-    customNumber_t param;
-    initCustomNumber(&param);
-    param.range_down = 3.0;
-    param.modulo = 4.0;
-    param.range_up = 7.0;
-    CHECK_NUM(argv[1], SGT_ALLOW_DECIMAL | SGT_MODULO, param);
-    THROW_ERR();
-    return 0;   
+    bool_t res;
+    test_total++;
+
+    res = check_number(num, opt, param);
+    if (res == wanted) {
+        test_passed++;
+        printf("\e[32mPassed\e[0m : %s\n", msg);
+    } else {
+        printf("\e[31mFail\e[0m :   %s ==> [%s]\n", msg, num);
+        printf("\t Expected : %s but got %s\n", wanted == TRUE ? "TRUE" : "FALSE", res == TRUE ? "TRUE" : "FALSE");
+        throw_err(FALSE);
+    }
+}
+
+int main()
+{
+    test_number("Expecting integer - Simple", TRUE, "4", SGT_NONE, NULL);
+    test_number("Expecting integer - Decimal", FALSE, "1.337", SGT_NONE, NULL);
+    test_number("Expecting integer - Negative", FALSE, "-69", SGT_NONE, NULL);
+    test_number("Expecting integer - Decimal and negative", FALSE, "-1.23", SGT_NONE, NULL);
+    test_number("Expecting integer - Not a number", FALSE, "ding", SGT_NONE, NULL);
+
+    test_number("Expecting  - ", FALSE, "ding", SGT_NONE, NULL);
+
 }
