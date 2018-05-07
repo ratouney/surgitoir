@@ -1,17 +1,17 @@
 # Surgitoir - Argument parsing library by Ratouney
 
-___
-### bool_t CHECKNUM(char *your_argument, opt_t binairy_mask, [customNumber_t param])
+
+### bool_t check_number(char *your_argument, opt_t binary_mask, customNumber_t *param)
 
 1. Your argument
 
     Just gimme a goddam string, (null terminated, else go F*** yourself).
 
-2. Possible values for the binairy options : 
+2. Possible values for the binary options : 
 
     | Code | Effect |
     |---|---|
-    | SGT_NONE  | Positive integer only  |
+    | SGT_ANY  | Positive integer only  |
     | SGT_ALLOW_NEGATIVE | Allow negative values |
     | SGT_STRICT_NEGATIVE| Only accept negative values |
     | SGT_NON_NULL | Discard null values |
@@ -29,9 +29,11 @@ ___
             double modulo; // defaulted to 1.0
         }
 
+    You can pass `NULL` if you don't need any of those
+
 ___
 
-### THROW_ERR([TRUE || FALSE])
+### throw_err(SGT_TRUE || SGT_FALSE)
 
 1. Crash or not ?
 
@@ -39,7 +41,7 @@ ___
 
     > extern error_t *sgt_error;
 
-    If called, the `THROW_ERR()` macro will display the string and the error that occured.
+    If called, the `throw_err(SGT_TRUE)` macro will display the string and the error that occured.
 
     ```
         INPUT: 4.2.6

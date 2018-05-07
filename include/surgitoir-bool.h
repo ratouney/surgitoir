@@ -9,8 +9,8 @@
 	#define BOOL_H_
 
 typedef enum {
-    TRUE = 1,
-    FALSE = 0,
+    SGT_TRUE = 1,
+    SGT_FALSE = 0,
 } bool_t;
 
 

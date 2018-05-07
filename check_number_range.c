@@ -19,7 +19,7 @@ static bool_t check_range_up(char *str, number_opts_t opt, customNumber_t *param
             return sgt_error_assign(str, UPPER_BOUND_REACHED);
         }
     }
-    return TRUE;
+    return SGT_TRUE;
 }
 
 static bool_t check_range_down(char *str, number_opts_t opt, customNumber_t *param, double value)
@@ -33,7 +33,7 @@ static bool_t check_range_down(char *str, number_opts_t opt, customNumber_t *par
             return sgt_error_assign(str, LOWER_BOUND_REACHED);
         }
     }
-    return TRUE;
+    return SGT_TRUE;
 }
 
 bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double value)
@@ -41,16 +41,16 @@ bool_t check_range(char *str, number_opts_t opt, customNumber_t *param, double v
     if (opt & SGT_RANGE) {
         ;
     } else {
-        return TRUE;
+        return SGT_TRUE;
     }
     if (param == NULL)
         return sgt_error_assign(str, NO_PARAMS_PROVIDED);
     if (param->range_up < param->range_down) {
         return sgt_error_assign(str, INVALID_RANGE);
     }
-    if (check_range_down(str, opt, param, value) == FALSE)
-        return FALSE;
-    if (check_range_up(str, opt, param, value) == FALSE)
-        return FALSE;
-    return TRUE;
+    if (check_range_down(str, opt, param, value) == SGT_FALSE)
+        return SGT_FALSE;
+    if (check_range_up(str, opt, param, value) == SGT_FALSE)
+        return SGT_FALSE;
+    return SGT_TRUE;
 }

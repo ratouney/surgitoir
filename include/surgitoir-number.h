@@ -12,7 +12,7 @@
 //#define CHECK_NUM(a, b, ...) check_number(a, b, (defaultNumber, ##__VA_ARGS__))
 
 typedef enum {
-    SGT_NONE = 1,
+    SGT_ANY = 1,
     SGT_ALLOW_NEGATIVE = 2,
     SGT_STRICT_NEGATIVE = 4,
     SGT_ALLOW_DECIMAL = 8,

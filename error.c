@@ -18,7 +18,7 @@ bool_t sgt_error_assign(char *token, int code)
         free(sgt_err->token);
     sgt_err->token = strdup(token);
     sgt_err->code = code;
-    return FALSE;
+    return SGT_FALSE;
 }
 
 void throw_err(bool_t crash)
@@ -26,7 +26,7 @@ void throw_err(bool_t crash)
     if (sgt_err == NULL)
         return;
     dprintf(2, "[%s] --> %s\n", sgt_err->token, error_messages[sgt_err->code]);
-    if (crash == TRUE)
+    if (crash == SGT_TRUE)
         exit(exit_code);
 }
 

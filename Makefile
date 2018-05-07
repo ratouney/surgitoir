@@ -7,7 +7,7 @@
 
 CC		=		gcc -g
 
-NAME	=		libsurgitoir.so
+NAME		=		libsurgitoir.so
 
 SRC		=		is_number.c			\
 				check_number.c			\
@@ -20,7 +20,9 @@ SRC		=		is_number.c			\
 
 OBJ		=		$(SRC:.c=.o)
 
-CFLAGS	+=		-I./include -W -Wall -Wextra
+CFLAGS		+=		-I./include -W -Wall -Wextra
+
+TEST_FILE	=		main-test.c
 
 all:		$(OBJ)
 	$(CC) -c -fPIC $(SRC) $(CFLAGS)
@@ -38,7 +40,8 @@ fclean:		clean
 re:		fclean all
 
 test:		all
-	$(CC) main.c -lm $(CFLAGS) -L./ -lsurgitoir -o test
+	$(CC) $(TEST_FILE) -lm $(CFLAGS) -L./ -lsurgitoir -o test
+	./test
 
 init:
 	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/

@@ -15,7 +15,7 @@ bool_t is_num(char *str)
     char dot = 0;
 
     if (str == NULL || str[0] == 0)
-        return FALSE;
+        return SGT_FALSE;
     while (str[0] == ' ')
         str++;
     for (int i = 0; str[i] != 0 ; i++) {
@@ -30,7 +30,7 @@ bool_t is_num(char *str)
                     return sgt_error_assign(init, MULTIPLE_FLOATING_POINTS);
                 }
             case '-':
-                if (i > 0 && is_in("0123456789.", str[i - 1]) == TRUE)
+                if (i > 0 && is_in("0123456789.", str[i - 1]) == SGT_TRUE)
                     return sgt_error_assign(init, FLYING_MINUS);
                 if (minus == 0) {
                     minus++;
@@ -39,7 +39,7 @@ bool_t is_num(char *str)
                     return sgt_error_assign(init, MULTIPLE_MINUSES);
                 }
             case '+':
-                if (i > 0 && is_in("0123456789.", str[i - 1]) == TRUE)
+                if (i > 0 && is_in("0123456789.", str[i - 1]) == SGT_TRUE)
                     return sgt_error_assign(init, FLYING_PLUS);
                 if (plus == 0) {
                     plus++;
@@ -48,10 +48,10 @@ bool_t is_num(char *str)
                     return sgt_error_assign(init, MULTIPLE_PLUSES);
                 }
             default:
-                if (is_in("0123456789", str[i]) == FALSE) {
-                    return FALSE;
+                if (is_in("0123456789", str[i]) == SGT_FALSE) {
+                    return SGT_FALSE;
                 }
         }
     }
-    return TRUE;
+    return SGT_TRUE;
 }

@@ -20,7 +20,7 @@ bool_t is_in(char *haystack, char needle)
     for (int i = 0; haystack[i] ; i++)
     {
         if (haystack[i] == needle)
-            return TRUE;
+            return SGT_TRUE;
     }
-    return FALSE;
+    return SGT_FALSE;
 }
